@@ -67,8 +67,10 @@ These KPIs helped measure revenue contribution, customer value and churn impact 
 
  a. Churn by Total Charges
 This analysis examined how customer churn relates to the total amount spent by customers over time.
+
 Key Insight:
 Customers with lower overall spending and shorter customer lifecycles showed higher churn tendencies, while long-term customers generated significantly higher lifetime value.
+
 
 b. Monthly Charges by Add-On Services
 This analysis focused on understanding how additional telecom services influence customer spending patterns.
