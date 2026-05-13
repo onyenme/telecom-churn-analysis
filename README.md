@@ -10,6 +10,7 @@ The project combines customer segmentation, financial analysis and business inte
 
 # Project Objectives
 The analysis was carried out to answer key business questions such as:
+
 i. Which customer groups contribute the most revenue?
 
 ii. What factors are associated with customer churn?
@@ -48,7 +49,9 @@ iv. Python (optional for extended analysis)
  
  # Key Performance Indicators (KPIs)
 The following KPIs were used to evaluate customer behavior and financial performance:
+
 KPI	Description
+
 1. Total Charges	generated from customers.
 
 2. Average amount spent monthly by customers.
@@ -92,17 +95,27 @@ Customers using automatic payment methods generally showed more stable retention
 The dashboard was designed to provide an interactive overview of customer churn and revenue performance.
 
 i. Dashboard Highlights:
+
 a. Revenue monitoring
+
 b. Churn analysis
+
 c. Customer segmentation
+
 d. Tenure analysis
+
 e. Payment behavior analysis
 
 ii. Interactive Filters:
+
 a. Churn Status
+
 b. Payment Method
+
 c. Internet Service
+
 d. Tenure Range
+
 e.Customer Segments
 
 
@@ -138,8 +151,3 @@ viii. it Encourages automatic payment adoption to improve retention consistency 
 
 # Project Outcome
 This project demonstrates how customer and financial data can be transformed into actionable business intelligence for the telecommunications industry. The analysis provides valuable insights into customer behavior, revenue performance and churn risk while supporting data-driven decision-making.
-
-
-LinkedIn: Add your LinkedIn profile
-GitHub: Add your GitHub profile
-Email: Add your professional email
