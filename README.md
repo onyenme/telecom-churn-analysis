@@ -1,242 +1,145 @@
 # telecom-churn-analysis
-Customer churn analysis project
 
 <img width="478" height="343" alt="Excel Tele Communication Dashboard" src="https://github.com/user-attachments/assets/3f272842-319e-4c9c-9f78-d5684fbfca73" />
 
 
-
-# Telecom Customer Churn Analysis
-
-##  Project Overview
-
-Customer churn remains one of the biggest revenue challenges in the telecommunications industry. This project focuses on analyzing customer behavior, service usage patterns and financial indicators to identify the major factors contributing to customer churn.
-The analysis mainly combined  business intelligence, financial analysis, and customer segmentation techniques which assisted in uncovering actionable insights that can help telecom companies improve customer retention, reduce revenue leakage and optimize profitability.
-
-# 🎯 Business Problem
-Telecommunication companies experience significant financial losses when customers discontinue their services. Understanding why customers leave is critical for:
-* Improvement in customer retention.
-
-* Reduction related in churn's revenue losses.
-
-* Enhancing customer experience.
-
-* Increasing customer lifetime value (CLV).
-
-* Supporting strategic business decisions.
-
-This project aims to answer the following key questions:
-* Which customers are most likely to churn?
-
-* What factors influence customer retention?
-
-* How does churn affect company revenue?
-
-* What strategies can reduce customer attrition?
+# Project Overview
+This project focuses on analyzing customer churn behavior and revenue performance within a telecommunications company. It also made use of customer financial and service-related data. The goal of the analysis is to uncover patterns influencing customer retention, spending behavior and churn while providing actionable insights that can support strategic business decisions positively.
+The project combines customer segmentation, financial analysis and business intelligence techniques to evaluate how different customer attributes tend to impact the company's revenue and long-term customer value.
 
 
+# Project Objectives
+The analysis was carried out to answer key business questions such as:
+i. Which customer groups contribute the most revenue?
 
-# 📂 Dataset Information
+ii. What factors are associated with customer churn?
 
-The dataset contains customer-level information collected from a telecommunications company.
+iii. How can the company reduce revenue leakage caused by churn?
 
-### Key Features Include:
+iv. Which tenure groups are more likely to churn?
 
-| Category              | Variables                                               |
-| --------------------- | ------------------------------------------------------- |
-| Customer Demographics | Gender, SeniorCitizen, Partner, Dependents              |
-| Customer Relationship | Tenure, Contract                                        |
-| Services              | PhoneService, InternetService, StreamingTV, TechSupport |
-| Financial Metrics     | MonthlyCharges, TotalCharges                            |
-| Billing Information   | PaymentMethod, PaperlessBilling                         |
-| Target Variable       | Churn                                                   |
+v. How do payment methods and internet services affect customer spending?
 
----
 
-# 🛠 Tools & Technologies
+ # Dataset Description
+The dataset contains customer-level information from a telecommunications company, including:
+a. Customer demographics
 
-* Microsoft Excel
-* Power BI
-* Python
-* SQL
+b. Internet service subscription
 
-### Python Libraries
+c. Payment methods
 
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
+d. Monthly and total customer charges
 
----
+e. Contract and tenure information
 
-# 📊 Key Performance Indicators (KPIs)
+f. Customer churn status
 
+
+# Tools Used
+i. Microsoft Excel
+
+ii. Power BI
+
+iii. SQL
+
+iv. Python (optional for extended analysis)
+
+ 
+ # Key Performance Indicators (KPIs)
 The following KPIs were used to evaluate customer behavior and financial performance:
+KPI	Description
+1. Total Charges	generated from customers.
 
-* Customer Churn Rate
-* Retention Rate
-* Average Revenue Per User (ARPU)
-* Customer Lifetime Value (CLV)
-* Revenue Lost from Churn
-* Add-on Service Adoption Rate
-* Churn by Contract Type
-* Churn by Tenure Group
+2. Average amount spent monthly by customers.
 
----
+3. Monthly Charges	of customer billing analysis.
 
-# 🔍 Exploratory Data Analysis (EDA)
+4. Total Churn	number of customers who discontinued services.
 
-The analysis explored relationships between churn and multiple customer characteristics.
+These KPIs helped measure revenue contribution, customer value and churn impact across different customer segments.
 
-### Major Areas Analyzed
 
-* Churn by tenure group
-* Churn by contract type
-* Monthly charges vs churn
-* Internet service vs churn
-* Add-on services vs retention
-* Revenue contribution by customer segment
+# Major Areas Analyzed
 
----
+ a. Churn by Total Charges
+This analysis examined how customer churn relates to the total amount spent by customers over time.
+Key Insight:
+Customers with lower overall spending and shorter customer lifecycles showed higher churn tendencies, while long-term customers generated significantly higher lifetime value.
 
-# 📈 Key Insights
+b. Monthly Charges by Add-On Services
+This analysis focused on understanding how additional telecom services influence customer spending patterns.
+Key Insight:
+Customers subscribed to add-on services such as streaming, security, backup and tech support generally recorded higher monthly spending and stronger customer retention behavior.
 
-### 1. Customers on Month-to-Month Contracts Churn More
+c. Internet Service by Total Charges
+This section analyzed revenue contribution across different internet service categories.
+Key Insight:
+Fiber internet customers generated higher revenue on average, although some segments also displayed elevated churn levels, suggesting possible service quality or pricing concerns.
 
-Customers with flexible contracts showed the highest churn rates compared to customers on yearly contracts.
+d. Monthly Charges by Churn and Tenure Range
+Customer spending was analyzed alongside churn status and tenure grouping.
+Key Insight:
+Short-term customers with relatively high monthly charges demonstrated higher churn rates compared to long-term customers, indicating that pricing sensitivity and early customer experience may significantly influence retention.
 
-### 2. Early-Stage Customers Are High-Risk
+e. Monthly Charges by Payment Method
+This analysis explored how different payment methods affect customer billing behavior and churn patterns.
+Key Insight:
+Customers using automatic payment methods generally showed more stable retention patterns compared to customers using manual payment options.
 
-Customers within the first 12 months demonstrated significantly higher churn behavior.
 
-### 3. High Monthly Charges Increase Churn Probability
+ # Dashboard Features
+The dashboard was designed to provide an interactive overview of customer churn and revenue performance.
 
-Customers paying higher monthly fees were more likely to discontinue services.
+i. Dashboard Highlights:
+a. Revenue monitoring
+b. Churn analysis
+c. Customer segmentation
+d. Tenure analysis
+e. Payment behavior analysis
 
-### 4. Add-On Services Improve Retention
+ii. Interactive Filters:
+a. Churn Status
+b. Payment Method
+c. Internet Service
+d. Tenure Range
+e.Customer Segments
 
-Customers subscribed to services such as online security, backup, and tech support were more likely to remain active.
 
-### 5. Revenue Loss Is Concentrated Among Specific Segments
+# Business Insights
+The analysis revealed several important business insights:
+1. Customer churn is strongly connected to tenure and monthly billing patterns.
 
-Short-term customers with high monthly charges contributed heavily to revenue leakage.
+2. Customers with higher engagement through additional services contribute more long-term value.
 
----
+3. Flexible or unstable payment behaviors may indicate increased churn risk.
 
-# 💡 Business Recommendations
+4.Early-stage customers require stronger onboarding and retention strategies.
 
-Based on the analysis, the following strategies are recommended:
 
-## 🚀 Improve Customer Onboarding
+# Recommendations
+Based on the findings, the following recommendations are proposed:
+i. It improve Early Customer Engagement.
 
-* Provide welcome incentives
-* Improve first-month engagement
-* Educate customers about available services
+ii. Focus on onboarding strategies during the first few months of customer acquisition to reduce early churn.
 
-## 🎯 Encourage Long-Term Contracts
+iii. It aim at promoting Add-On Services.
 
-* Offer discounts for annual subscriptions
-* Introduce loyalty rewards
+iv. It assures customers to adopt additional telecom services through bundled offers and promotional incentives.
 
-## 🔐 Promote Value-Added Services
+v. It develops loyalty programs targeting high-value customers and customers with increasing monthly charges.
 
-* Bundle online security and tech support
-* Offer free trials for add-on services
+Vi. Price Strategies are efficiently optimized.
 
-## 💳 Optimize Pricing Strategy
+vii. Monitor customers with high monthly charges to identify possible pricing dissatisfaction before churn occurs.
 
-* Create flexible pricing plans
-* Identify and support price-sensitive customers
+viii. it Encourages automatic payment adoption to improve retention consistency and billing stability.
 
-## 📶 Improve Service Quality
 
-* Monitor customer complaints
-* Address network-related issues proactively
+# Project Outcome
+This project demonstrates how customer and financial data can be transformed into actionable business intelligence for the telecommunications industry. The analysis provides valuable insights into customer behavior, revenue performance and churn risk while supporting data-driven decision-making.
 
----
 
-# 📊 Dashboard Features
-
-The interactive dashboard includes:
-
-* Churn Analysis Overview
-* Revenue Performance Tracking
-* Customer Segmentation
-* Tenure Group Analysis
-* Contract Type Analysis
-* Financial KPI Monitoring
-
-### Dashboard Slicers
-
-* Gender
-* Contract Type
-* Internet Service
-* Payment Method
-* Tenure Group
-* Churn Status
-
----
-
-# 🧠 Financial Impact
-
-Reducing churn improves:
-
-* Revenue stability
-* Customer profitability
-* Long-term growth
-* Customer lifetime value
-* Operational efficiency
-
-The findings from this project can support data-driven decision-making across customer retention, pricing strategy, and operational planning.
-
----
-
-# 📌 Project Outcome
-
-This project demonstrates how data analytics can be used to transform raw telecom customer data into actionable business insights. The analysis provides a strong foundation for predictive modeling, strategic decision-making, and customer retention planning.
-
----
-
-# 📷 Dashboard Preview
-
-> Add screenshots of your Excel or Power BI dashboard here.
-
----
-
-# 👩‍💻 Author
-
-## Okolie Elizabeth
-
-Data Analyst | Financial Analyst | Accounting Graduate
-
-### Skills
-
-* Data Analysis
-* Financial Analysis
-* Microsoft Excel
-* Power BI
-* SQL
-* Python
-* Dashboard Design
-* Business Intelligence
-
----
-
-# ⭐ Future Improvements
-
-Potential future enhancements include:
-
-* Machine learning churn prediction model
-* Customer segmentation clustering
-* Real-time dashboard integration
-* Predictive revenue forecasting
-* Automated reporting systems
-
----
-
-# 📬 Contact
-
-You can connect with me for collaborations, analytics projects, or business insights.
-
-* LinkedIn: Add your LinkedIn profile
-* G
+LinkedIn: Add your LinkedIn profile
+GitHub: Add your GitHub profile
+Email: Add your professional email
