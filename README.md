@@ -1,7 +1,8 @@
 # telecom-churn-analysis
 Customer churn analysis project
 
-<img width="488" height="343" alt="New_Churn_Dashboard" src="https://github.com/user-attachments/assets/a7e9326a-0c0b-4d97-aaef-716f32b72825" />
+<img width="445" height="291" alt="Churn Dashboard" src="https://github.com/user-attachments/assets/ea71a1c1-54d4-45e4-b20c-59cb34c3ecfe" />
+
 
 # Telecom Customer Churn Analysis
 
