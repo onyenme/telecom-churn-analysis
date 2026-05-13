@@ -24,6 +24,7 @@ v. How do payment methods and internet services affect customer spending?
 
  # Dataset Description
 The dataset contains customer-level information from a telecommunications company, including:
+
 a. Customer demographics
 
 b. Internet service subscription
@@ -68,35 +69,35 @@ These KPIs helped measure revenue contribution, customer value and churn impact 
  a. Churn by Total Charges
 This analysis examined how customer churn relates to the total amount spent by customers over time.
 
-Key Insight:
+  Key Insight:
 Customers with lower overall spending and shorter customer lifecycles showed higher churn tendencies, while long-term customers generated significantly higher lifetime value.
 
 
 b. Monthly Charges by Add-On Services
 This analysis focused on understanding how additional telecom services influence customer spending patterns.
 
-Key Insight:
+  Key Insight:
 Customers subscribed to add-on services such as streaming, security, backup and tech support generally recorded higher monthly spending and stronger customer retention behavior.
 
 
 c. Internet Service by Total Charges
 This section analyzed revenue contribution across different internet service categories.
 
-Key Insight:
+  Key Insight:
 Fiber internet customers generated higher revenue on average, although some segments also displayed elevated churn levels, suggesting possible service quality or pricing concerns.
 
 
 d. Monthly Charges by Churn and Tenure Range
 Customer spending was analyzed alongside churn status and tenure grouping.
 
-Key Insight:
+  Key Insight:
 Short-term customers with relatively high monthly charges demonstrated higher churn rates compared to long-term customers, indicating that pricing sensitivity and early customer experience may significantly influence retention.
 
 
 e. Monthly Charges by Payment Method
 This analysis explored how different payment methods affect customer billing behavior and churn patterns.
 
-Key Insight:
+  Key Insight:
 Customers using automatic payment methods generally showed more stable retention patterns compared to customers using manual payment options.
 
 
