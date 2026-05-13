@@ -77,11 +77,14 @@ Customers subscribed to add-on services such as streaming, security, backup and 
 
 c. Internet Service by Total Charges
 This section analyzed revenue contribution across different internet service categories.
+
 Key Insight:
+
 Fiber internet customers generated higher revenue on average, although some segments also displayed elevated churn levels, suggesting possible service quality or pricing concerns.
 
 d. Monthly Charges by Churn and Tenure Range
 Customer spending was analyzed alongside churn status and tenure grouping.
+
 Key Insight:
 Short-term customers with relatively high monthly charges demonstrated higher churn rates compared to long-term customers, indicating that pricing sensitivity and early customer experience may significantly influence retention.
 
