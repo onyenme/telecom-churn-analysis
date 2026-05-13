@@ -74,15 +74,17 @@ Customers with lower overall spending and shorter customer lifecycles showed hig
 
 b. Monthly Charges by Add-On Services
 This analysis focused on understanding how additional telecom services influence customer spending patterns.
+
 Key Insight:
 Customers subscribed to add-on services such as streaming, security, backup and tech support generally recorded higher monthly spending and stronger customer retention behavior.
+
 
 c. Internet Service by Total Charges
 This section analyzed revenue contribution across different internet service categories.
 
 Key Insight:
-
 Fiber internet customers generated higher revenue on average, although some segments also displayed elevated churn levels, suggesting possible service quality or pricing concerns.
+
 
 d. Monthly Charges by Churn and Tenure Range
 Customer spending was analyzed alongside churn status and tenure grouping.
@@ -90,8 +92,10 @@ Customer spending was analyzed alongside churn status and tenure grouping.
 Key Insight:
 Short-term customers with relatively high monthly charges demonstrated higher churn rates compared to long-term customers, indicating that pricing sensitivity and early customer experience may significantly influence retention.
 
+
 e. Monthly Charges by Payment Method
 This analysis explored how different payment methods affect customer billing behavior and churn patterns.
+
 Key Insight:
 Customers using automatic payment methods generally showed more stable retention patterns compared to customers using manual payment options.
 
